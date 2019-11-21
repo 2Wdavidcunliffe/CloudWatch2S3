@@ -1,5 +1,5 @@
 Description: Continuously dump all matching CloudWatch Log groups to a bucket in a
-  central account for long-term storage (by CloudSnorkel)
+  central account for long-term storage
 Metadata:
   AWS::CloudFormation::Interface:
     ParameterGroups:
