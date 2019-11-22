@@ -21,7 +21,7 @@ Conditions:
           - Ref: LogFormat
           - CloudWatch JSON (GZIP)
 Description: Continuously dump all matching CloudWatch Log groups to a bucket for
-  long-term storage (by CloudSnorkel)
+  long-term storage
 Metadata:
   AWS::CloudFormation::Interface:
     ParameterGroups:
